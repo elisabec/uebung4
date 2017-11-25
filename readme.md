@@ -37,9 +37,13 @@ Richtig.
 ## Aufgabe 4
 Welche Aussagen sind korrekt?
 1. An Interface may be implemented by multiple classifiers, but one classifier may only implement one interface.
+richtig
 2. An Interface may be implemented by multiple classifiers, and one classifier may implement multiple interfaces.
+erster Teil richtig, zweiter Teil falsch; eine klasse kann immer maximal ein Interface implementieren, andernfalls Problem mit der Vererbungslogik; evtl. enstehen Widersprüche
 3. An interface may be implemented by at most one classifier, and one classifier may implement at most one interface.
+erter Teil falsch, zweiter Teil richtig; ein interface kann auch bei unterschiedlichen Klassen implementiert werden
 4. An interface may be implemented by at most one classifier, but one classifier may implement multiple interfaces.
+komplett falsch
 
 ## Aufgabe 5
 Geben Sie in der folgenden Abbildung die Bezeichnungen der dargestellten Elemente an.
@@ -72,7 +76,12 @@ richtig
 4. Zu einem bestimmten Zeitpunkt kann eine Instanz von z in mehreren Instanzen von w enthalten sein.
 falsch, denn w erstellt explizit nur die Instanzen von z, die w braucht. 
 ## Aufgabe 7
-Schauen Sie sich die Java Dateien im Ordner RobotAdapter an: Die Spielfiguren in einem Computerspiel müssen alle das Interface Spieler implementieren. Die Klasse Human tut dies. Nun hat eine Zulieferfirma den Code für einen Roboter geschrieben (Robot.java). Leider haben Sie auf diesen keinen Einfluss und müssen den Roboter so in ihr Spiel integrieren. Welches Pattern eignet sich dafür? Impl ementieren Sie den entsprechenden Code.
+Schauen Sie sich die Java Dateien im Ordner RobotAdapter an: 
+Die Spielfiguren in einem Computerspiel müssen alle das Interface Spieler implementieren. 
+Die Klasse Human tut dies. Nun hat eine Zulieferfirma den Code für einen Roboter geschrieben (Robot.java). 
+Leider haben Sie auf diesen keinen Einfluss und müssen den Roboter so in ihr Spiel integrieren. 
+Welches Pattern eignet sich dafür? Implementieren Sie den entsprechenden Code.
+Es eignet sich das Observer Pattern.
 
 # Zusätzliche Materialien (wird nach und nach erweitert, bis alle Inhalte die keine Folien haben hier vorhanden sind. Daher immer wieder reinschauen)
 ## Adapter Pattern
