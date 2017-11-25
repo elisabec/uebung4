@@ -28,11 +28,11 @@ Welche der folgenden Aussagen über ein Interface ist korrekt?
 1. Ein Interface kann private Attribute besitzen
 falsche; ein Interface kann nur nicht private Attribute bestizen, weil private Attribute nur in der Klasse selber verwendet werden darf. In einem Interface werden Methoden aber nie definiert, sondern nur ausgeführt; folgich wäre private Attribute nirgends verwendbar.
 2. Ein Interface kann andere Interfaces redefinieren
-# Nein, Interface kann kein anderes Interface implementieren und somit nicht redefinieren. Ich denke es liegt an der Vererbungslogik. Ein Interface ist eine Art abstrakte Klasse, die also keine Objekte erstellen kann. Es erben aber nur Objekte und keine KLassen? 
+Nein, Interface kann kein anderes Interface implementieren und somit nicht redefinieren. Ich denke es liegt an der Vererbungslogik. Ein Interface ist eine Art abstrakte Klasse, die also keine Objekte erstellen kann. Es erben aber nur Objekte und keine KLassen? 
 3. Alle Merkmale eines Interface müssen die Sichtbarkeit "private" haben
-# Falsch. Gibt es einen Unterschied zur Frage 1? Attribute sind die Merkmale, die ein Objekt von einem anderen unterscheiden. Somit gleiche Argumentation wie in Frage 1.
+Falsch. Gibt es einen Unterschied zur Frage 1? Attribute sind die Merkmale, die ein Objekt von einem anderen unterscheiden. Somit gleiche Argumentation wie in Frage 1.
 4. Ein Interface kann keine Attribute haben
-# Richtig.
+Richtig.
 
 ## Aufgabe 4
 Welche Aussagen sind korrekt?
@@ -64,15 +64,15 @@ Welche der folgenden Aussagen ist korrekt?
 ![Aufgabe 6](https://github.com/Reitz86/uebung4/raw/master/aufgabe6.JPG)
 
 1. Sobald w zerstört wird, dann wird auch z zerstört.
-# falsch
+falsch
 2. Sobald z zerstört wird, dann wird auch w zerstört.
-# richig
+richig
 3. Zu einem bestimmten Zeitpunkt kann eine Instanz von z in genau einer Instanz von w enthalten sein.
-# richtig
+richtig
 4. Zu einem bestimmten Zeitpunkt kann eine Instanz von z in mehreren Instanzen von w enthalten sein.
-# falsch, denn w erstellt explizit nur die Instanzen von z, die w braucht. 
+falsch, denn w erstellt explizit nur die Instanzen von z, die w braucht. 
 ## Aufgabe 7
-Schauen Sie sich die Java Dateien im Ordner RobotAdapter an: Die Spielfiguren in einem Computerspiel müssen alle das Interface Spieler implementieren. Die Klasse Human tut dies. Nun hat eine Zulieferfirma den Code für einen Roboter geschrieben (Robot.java). Leider haben Sie auf diesen keinen Einfluss und müssen den Roboter so in ihr Spiel integrieren. Welches Pattern eignet sich dafür? Implementieren Sie den entsprechenden Code.
+Schauen Sie sich die Java Dateien im Ordner RobotAdapter an: Die Spielfiguren in einem Computerspiel müssen alle das Interface Spieler implementieren. Die Klasse Human tut dies. Nun hat eine Zulieferfirma den Code für einen Roboter geschrieben (Robot.java). Leider haben Sie auf diesen keinen Einfluss und müssen den Roboter so in ihr Spiel integrieren. Welches Pattern eignet sich dafür? Impl ementieren Sie den entsprechenden Code.
 
 # Zusätzliche Materialien (wird nach und nach erweitert, bis alle Inhalte die keine Folien haben hier vorhanden sind. Daher immer wieder reinschauen)
 ## Adapter Pattern
