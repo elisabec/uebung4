@@ -20,9 +20,9 @@ dem entsprechenden Kunden Kontakt auf, um die offenen Fragen zu klären. Ist mit
 in Ordnung, bzw. sind die offenen Fragen geklärt, dann stellt die Floristin mit Hilfe der Bestelldaten
 den Strauß zusammen. Sobald der Strauÿ fertig ist, wird er vom Lieferdienst an die auf der Bestellung
 vermerkte Adresse geliefert.
-![Aufgabe 1](file:///Users/Elisa/git/uebung4/A1_2.JPG)
+![Aufgabe 1](https://github.com/elisabec/uebung4/blob/master/A1_2.JPG)
 ### Entwerfen Sie zu diesem Beispiel auch ein Aktivitätsdiagramm. Erkennen Sie die Unterschiede?
-![Aufgabe 2](file:///Users/Elisa/git/uebung4/Aktivit%C3%A4tsdiagramm.JPG)
+![Aufgabe 2](https://github.com/elisabec/uebung4/blob/master/Aktivitätsdiagramm.JPG)
 ## Aufgabe 3
 Welche der folgenden Aussagen über ein Interface ist korrekt?
 1. Ein Interface kann private Attribute besitzen
