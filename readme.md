@@ -81,7 +81,9 @@ Die Spielfiguren in einem Computerspiel müssen alle das Interface Spieler imple
 Die Klasse Human tut dies. Nun hat eine Zulieferfirma den Code für einen Roboter geschrieben (Robot.java). 
 Leider haben Sie auf diesen keinen Einfluss und müssen den Roboter so in ihr Spiel integrieren. 
 Welches Pattern eignet sich dafür? Implementieren Sie den entsprechenden Code.
-Es eignet sich das Observer Pattern.
+Es eignet sich das Factoring Pattern. Bei jedem Spielstart muss einem Spieler ein Roboter zugewiesen werden, d.h.
+wenn eine human instanz aufgerufen wird, dann muss gleichzeitig ein Roboter erstellt werden??
+u.u. eg
 
 # Zusätzliche Materialien (wird nach und nach erweitert, bis alle Inhalte die keine Folien haben hier vorhanden sind. Daher immer wieder reinschauen)
 ## Adapter Pattern
